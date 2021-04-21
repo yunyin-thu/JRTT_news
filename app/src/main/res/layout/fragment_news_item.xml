@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/title_in_news_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/item_padding_to_side"
+        android:paddingEnd="@dimen/item_padding_to_side"
+        android:text="新闻标题"
+        android:textSize="@dimen/title_size_in_news_item" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/item_padding_to_side"
+        android:paddingEnd="@dimen/item_padding_to_side"
+        android:gravity="left">
+        <TextView
+            android:id="@+id/source_in_news_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新闻来源"
+            android:textSize="@dimen/source_size_in_news_item"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+            <TextView
+                android:id="@+id/time_in_news_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新闻时间"
+                android:textSize="@dimen/time_size_in_news_item"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

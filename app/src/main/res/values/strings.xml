@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">今日偷桃</string>
+    <string name="menu_welcome">欢迎使用</string>
+    <string name="menu_news">新闻列表</string>
+    <string name="menu_search">新闻搜索</string>
+    <string name="menu_history">历史记录</string>
+    <string name="menu_data">疫情数据</string>
+    <string name="menu_graph">疫情图谱</string>
+    <string name="menu_setting">基础设置</string>
+    <string name="menu_about">关于我们</string>
+    <string name="news_all">全部</string>
+    <string name="news_news">新闻</string>
+    <string name="news_papers">论文</string>
+    <string name="news_events">热点</string>
+    <string name="news_points">快讯</string>
+    <string name="data_world">全球数据</string>
+    <string name="data_china">全国数据</string>
+    <string name="setting_mode">模块选择</string>
+    <string name="setting_clear">清除数据</string>
+    <string name="this_is_clear">点击此处清除历史数据</string>
+    <string name="search_hint_news">请输入待搜索新闻</string>
+    <string name="search_hint_graph">请输入待搜索词条:例如新冠</string>
+    <string name="search_graph">搜索</string>
+    <string name="share">分享</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">今日偷桃</string>
+    <string name="nav_header_subtitle">YL YY@tsinghua.edu.cn</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">搜索</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

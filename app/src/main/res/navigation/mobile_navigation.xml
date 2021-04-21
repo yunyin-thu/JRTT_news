@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_welcome">
+
+    <fragment
+        android:id="@+id/nav_welcome"
+        android:name="com.java.yanlu.viewprocess.welcome.WelcomeFragment"
+        android:label="@string/menu_welcome"
+        tools:layout="@layout/fragment_welcome" />
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="com.java.yanlu.viewprocess.news.NewsFragment"
+        android:label="@string/menu_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.java.yanlu.viewprocess.search.SearchFragment"
+        android:label="@string/menu_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.java.yanlu.viewprocess.history.HistoryFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="com.java.yanlu.viewprocess.data.DataFragment"
+        android:label="@string/menu_data"
+        tools:layout="@layout/fragment_data" />
+    <fragment
+        android:id="@+id/nav_graph"
+        android:name="com.java.yanlu.viewprocess.graph.GraphFragment"
+        android:label="@string/menu_graph"
+        tools:layout="@layout/fragment_graph" />
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.java.yanlu.viewprocess.setting.SettingFragment"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.java.yanlu.viewprocess.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>

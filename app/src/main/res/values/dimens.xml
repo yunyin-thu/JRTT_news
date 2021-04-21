@@ -1,0 +1,54 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="appbar_padding">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- news_item-->
+    <dimen name="title_size_in_news_item">20dp</dimen>
+    <dimen name="source_size_in_news_item">10dp</dimen>
+    <dimen name="time_size_in_news_item">10dp</dimen>
+    <dimen name="item_padding_to_side">8dp</dimen>
+
+    <!-- data_item & graph_item-->
+    <dimen name="size_in_item">30dp</dimen>
+    <dimen name="padding_to_side">10dp</dimen>
+    <!--
+    padding 组件内部元素到内部边界的距离
+    margin 组件边界到父组件边界的距离
+    -->
+    <!-- app_bar -->
+    <dimen name="title_size_in_app_bar"></dimen>
+
+    <!-- news_content-->
+    <dimen name="title_size_in_news_content">30dp</dimen>
+    <dimen name="source_size_in_news_content">15dp</dimen>
+    <dimen name="time_size_in_news_content">15dp</dimen>
+    <dimen name="content_size_in_news_content">24dp</dimen>
+
+    <dimen name="time_margin_in_news_content">13dp</dimen>
+    <dimen name="source_margin_in_news_content">13dp</dimen>
+    <dimen name="title_margin_in_news_content">10dp</dimen>
+    <dimen name="content_margin_in_news_content">18dp</dimen>
+    <dimen name="text_margin">14dp</dimen>
+    <dimen name="main_text_padding_top">10dp</dimen>
+
+    <!-- setting -->
+    <dimen name="padding_to_side_in_setting">20dp</dimen>
+    <dimen name="padding_between_checkbox">18dp</dimen>
+    <!--
+    Because the window insets on round devices are larger than 15dp, this padding only applies
+    to square screens.
+    -->
+    <dimen name="box_inset_layout_padding">0dp</dimen>
+
+    <!--
+    This padding applies to both square and round screens. The total padding between the buttons
+    and the window insets is box_inset_layout_padding (above variable) on square screens and
+    inner_frame_layout_padding (below variable) on round screens.
+    -->
+    <dimen name="inner_frame_layout_padding">5dp</dimen>
+</resources>

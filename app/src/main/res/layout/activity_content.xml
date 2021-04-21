@@ -1,0 +1,68 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/title_margin_in_news_content"
+            android:textSize="@dimen/title_size_in_news_content"
+            android:text="新闻标题" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left">
+            <TextView
+                android:id="@+id/source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新闻来源"
+                android:layout_marginLeft="@dimen/source_margin_in_news_content"
+                android:layout_marginRight="@dimen/source_margin_in_news_content"
+                android:textSize="@dimen/source_margin_in_news_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right">
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="发出时间"
+                    android:textSize="@dimen/time_size_in_news_content"
+                    android:layout_marginRight="@dimen/time_margin_in_news_content"
+                    android:layout_marginLeft="@dimen/time_margin_in_news_content" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/share_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/share"
+            android:layout_gravity="right"
+            android:layout_margin="@dimen/content_size_in_news_content"/>
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="@dimen/content_margin_in_news_content"
+            android:layout_marginLeft="@dimen/content_margin_in_news_content"
+            android:layout_marginRight="@dimen/content_margin_in_news_content"
+            android:textSize="@dimen/content_size_in_news_content"
+            android:text="这里是正文，很长的正文，不知道有没有结束"/>
+    </LinearLayout>
+
+</ScrollView>
